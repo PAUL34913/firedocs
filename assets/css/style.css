@@ -1,0 +1,74 @@
+.outline {
+    outline: 1px solid black;
+}
+
+.navbar {
+    height: 60px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-toggler-custom {
+    padding: 0.25rem 0.5rem; /* Adjust padding as needed */
+    font-size: 0.875rem; /* Adjust font size as needed */
+}
+
+.form-inline-fix {
+    flex-wrap: nowrap;
+}
+
+/* Optional: Adjust padding and margin for better spacing */
+.form-inline-fix .form-control {
+    margin-right: 5px; /* Adjust margin between input and button */
+}
+
+.form-inline-fix .btn {
+    margin-left: 5px; /* Adjust margin between input and button */
+}
+
+.header {
+    height: 150px; /* Adjust the height as needed */
+}
+.text-center-vertically {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-bottom-center {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #ffffff; /* Light grey background */
+}
+
+.custom-text {
+    font-size: 5rem; /* Adjust the font size as needed */
+}
+.red-fire {
+    color: red;
+}
+
+@media (max-width: 767.98px) { /* Bootstrap's breakpoint for mobile devices */
+    .text-center-vertically {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* Ensure the navbar-toggler displays as icon always */
+    @media (min-width: 992px) {
+        .navbar .navbar-toggler {
+            display: flex !important;
+        }
+        .navbar .collapse {
+            display: none !important;
+        }
+    }
+
+    /* Style for the icon */
+    .navbar-toggler-custom {
+        padding: 0.25rem 0.5rem; /* Adjust padding as needed */
+        font-size: 0.875rem; /* Adjust font size as needed */
+    }
+}
+
