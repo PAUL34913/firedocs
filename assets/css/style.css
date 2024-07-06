@@ -1,74 +1,198 @@
-.outline {
-    outline: 1px solid black;
+.mobiledisplay {
+    display: none;
 }
 
-.navbar {
-    height: 60px; /* Adjust height as needed */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+navbarheight {
+    height: 30px;
 }
 
-.navbar-toggler-custom {
-    padding: 0.25rem 0.5rem; /* Adjust padding as needed */
+.navpos {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navdisplay {
+    height: 30px;
+    background-color: red;
+    outline: 1px solid rgb(180, 180, 180);
+    margin-bottom: 1px;
+}
+
+.navbar-brand img {
+    max-height: 25px; /* Adjust the maximum height of the logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.navbar-toggler {
+    padding: 0.25rem; /* Adjust padding as needed */
+    margin: 0.15rem; /* Adjust margin as needed */
     font-size: 0.875rem; /* Adjust font size as needed */
 }
 
-.form-inline-fix {
-    flex-wrap: nowrap;
+.navbar-toggler-icon {
+    margin-top: 0rem; /* Adjust margin-top as needed */
+    margin-bottom: 0rem; /* Adjust margin-bottom as needed */
 }
 
-/* Optional: Adjust padding and margin for better spacing */
-.form-inline-fix .form-control {
-    margin-right: 5px; /* Adjust margin between input and button */
+.bold {
+    font-weight: bold;
 }
 
-.form-inline-fix .btn {
-    margin-left: 5px; /* Adjust margin between input and button */
+.outline {
+    outline: 1px solid rgb(180, 180, 180);
 }
 
-.header {
-    height: 150px; /* Adjust the height as needed */
-}
-.text-center-vertically {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.image-bottom-center {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    background-color: #ffffff; /* Light grey background */
+.herotext {
+    font-size: 5rem;
 }
 
-.custom-text {
-    font-size: 5rem; /* Adjust the font size as needed */
+.hero {
+    height: auto;
+    margin-top: 100px;
 }
+
 .red-fire {
     color: red;
 }
 
+.content {
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.weltextfull {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.welcometext {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-img {
+    object-fit: cover;
+}
+
+.cardbodysize {
+    height: auto;
+}
+
+.cardheadersize {
+    font-size: 1.3vw;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.cardtextsize {
+    font-size: 1vw;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.footer {
+    position: fixed; /* Positioned after the content */
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30px; /* Adjust height as needed */
+    background-color: #000000; /* Navbar background color */
+    color: rgb(255, 255, 255); /* Navbar text color */
+    outline: 0.5px solid rgb(59, 59, 59);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures left and right content are spaced evenly */
+    z-index: 1; /* Ensures the footer stays above other content */
+    font-weight: normal;
+    font-size: 10px;
+  }
+
+  .footer p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  
+  .footer-left {
+    flex: 1;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .footer-right {
+    flex: 1;
+    text-align: right; /* Align text to the right */
+  }
+  
+
 @media (max-width: 767.98px) { /* Bootstrap's breakpoint for mobile devices */
-    .text-center-vertically {
-        padding-top: 20px;
-        padding-bottom: 20px;
+
+    .fulldisplay {
+        display: none;
     }
 
-    /* Ensure the navbar-toggler displays as icon always */
-    @media (min-width: 992px) {
-        .navbar .navbar-toggler {
-            display: flex !important;
-        }
-        .navbar .collapse {
-            display: none !important;
-        }
+    .mobiledisplay {
+        display: block;
+        margin: 0 auto;
     }
 
-    /* Style for the icon */
-    .navbar-toggler-custom {
-        padding: 0.25rem 0.5rem; /* Adjust padding as needed */
-        font-size: 0.875rem; /* Adjust font size as needed */
+    .container {
+        --bs-gutter-x: 0px !important; /* Override Bootstrap gutter */
     }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+   .herotext {
+    padding-top: 60px;
+   }
+
+   .hero {
+    height: auto;
+    margin-top: 60px;
+}
+
+.mobilewidth {
+    width: 100%;
+}
+
+.welcometext {
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.cardheadersize {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.cardtextsize {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.cardbodysize {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 }
 
