@@ -2,10 +2,6 @@ html, body {
     overflow-x: hidden;
 }
 
-.fulldisplay {
-    margin-bottom: ;
-}
-
 .mobiledisplay {
     display: none;
 }
@@ -197,7 +193,7 @@ html, body {
 
     .cardbodysize {
         margin-top: 25px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 4px;
+        margin-right: 4px;
     }
 }
