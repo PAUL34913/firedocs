@@ -1,0 +1,247 @@
+body, html {
+    overflow-x: hidden;
+}
+
+.mobiledisplay {
+    display: none;
+}
+
+.navbarlogo {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.navlogo {
+    font-size: 10px;
+}
+
+.navpos {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navdisplay {
+    height: 30px;
+    background-color: red;
+    outline: 1px solid rgb(180, 180, 180);
+    margin-bottom: 1px;
+    margin-top: 50px;
+}
+
+.navbar-brand img {
+    max-height: 25px; /* Adjust the maximum height of the logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.navbar-toggler {
+    padding: 0.25rem; /* Adjust padding as needed */
+    margin: 0.15rem; /* Adjust margin as needed */
+    font-size: 0.875rem; /* Adjust font size as needed */
+}
+
+.navbar-toggler-icon {
+    margin-top: 0rem; /* Adjust margin-top as needed */
+    margin-bottom: 0rem; /* Adjust margin-bottom as needed */
+}
+
+.rollover:hover {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.outline {
+    outline: 1px solid rgb(180, 180, 180);
+}
+
+.herotext {
+    font-size: 5rem;
+}
+
+.hero {
+    height: auto;
+    margin-top: 100px;
+}
+
+.red-fire {
+    color: red;
+}
+
+.content {
+    height: auto;
+    background-color: rgb(214, 214, 214);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.weltextfull {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Custom CSS adjustments */
+
+.card {
+    height: 100%;
+  }
+  
+  .card-title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; /* Center align text in card body */
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+  }
+  
+  .cardbodysize {
+    height: auto;
+  }
+  
+  .cardheadersize {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .cardtextsize {
+    font-size: 12px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  
+  .cbmargin {
+    padding-bottom: 50px;
+  }
+  
+  .cbaligncenter {
+    margin: 0 auto; /* Center align the card body content */
+    height: 80px;
+  }
+
+  .cheader {
+    font-size: 1.5rem;
+  }
+  
+
+.footer {
+    position: fixed; /* Positioned after the content */
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30px; /* Adjust height as needed */
+    background-color: #000000; /* Navbar background color */
+    color: rgb(255, 255, 255); /* Navbar text color */
+    outline: 0.5px solid rgb(59, 59, 59);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures left and right content are spaced evenly */
+    z-index: 1000; /* Ensures the footer stays above other content */
+    font-weight: normal;
+    font-size: 10px;
+  }
+
+  .footer p {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  
+  .footer-left {
+    flex: 1;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .footer-right {
+    flex: 1;
+    text-align: right; /* Align text to the right */
+  }
+  
+
+@media (max-width: 767.98px) { /* Bootstrap's breakpoint for mobile devices */
+
+    body {
+        overflow-x: hidden !important;
+   }
+
+     .fulldisplay {
+        display: none;
+    }
+
+    .mobiledisplay {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .container {
+        --bs-gutter-x: 0px !important; /* Override Bootstrap gutter */
+        max-width: 100%;
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .content {
+        padding-bottom: 50px;
+        padding-top: 0px;
+    }
+
+   .herotext {
+    padding-top: 60px;
+    font-size: 6rem;
+   }
+
+   .hero {
+    height: auto;
+    margin-top: 60px;
+}
+
+.mobilewidth {
+    width: 100%;
+}
+
+.welcometext {
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.cardheadersize {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.cardtextsize {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.cardbodysize {
+    margin-top: 25px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+}
+
+
+
+
+
