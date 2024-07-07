@@ -6,8 +6,9 @@ body, html {
     display: none;
 }
 
-.navbarheight {
-    height: 30px;
+.navbarlogo {
+    font-size: 1.5rem;
+    margin-right: 10px;
 }
 
 .navlogo {
@@ -25,6 +26,7 @@ body, html {
     background-color: red;
     outline: 1px solid rgb(180, 180, 180);
     margin-bottom: 1px;
+    margin-top: 50px;
 }
 
 .navbar-brand img {
@@ -72,6 +74,7 @@ body, html {
     height: auto;
     background-color: rgb(214, 214, 214);
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .weltextfull {
@@ -79,48 +82,62 @@ body, html {
     margin-bottom: 20px;
 }
 
-.welcometext {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-}
+/* Custom CSS adjustments */
 
 .card {
     height: 100%;
-}
-
-.card-title {
+  }
+  
+  .card-title {
     padding-top: 10px;
     padding-bottom: 20px;
-}
-
-.card-body {
+  }
+  
+  .card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.card-img {
+    text-align: center; /* Center align text in card body */
+  }
+  
+  .card-img-top {
     object-fit: cover;
-}
-
-.cardbodysize {
+  }
+  
+  .cardbodysize {
     height: auto;
-}
-
-.cardheadersize {
-    font-size: 1.3vw;
+  }
+  
+  .cardheadersize {
+    font-size: 2rem;
     color: rgb(0, 0, 0);
     font-weight: bold;
-}
-
-.cardtextsize {
-    font-size: 1vw;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .cardtextsize {
+    font-size: 12px;
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 50px;
     text-align: justify;
     text-align-last: center;
-}
+  }
+  
+  .cbmargin {
+    padding-bottom: 50px;
+  }
+  
+  .cbaligncenter {
+    margin: 0 auto; /* Center align the card body content */
+    height: 80px;
+  }
+
+  .cheader {
+    font-size: 1.5rem;
+  }
+  
 
 .footer {
     position: fixed; /* Positioned after the content */
@@ -134,7 +151,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Ensures left and right content are spaced evenly */
-    z-index: 1; /* Ensures the footer stays above other content */
+    z-index: 1000; /* Ensures the footer stays above other content */
     font-weight: normal;
     font-size: 10px;
   }
@@ -180,8 +197,8 @@ body, html {
     }
 
     .content {
-        padding-top: 5px;
         padding-bottom: 50px;
+        padding-top: 0px;
     }
 
    .herotext {
@@ -219,8 +236,8 @@ body, html {
 
 .cardbodysize {
     margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 }
