@@ -44,6 +44,8 @@ while (!isValidInput2) {
         alert("Please enter something.");
     } else if (isNaN(characterPosition)) {
         alert("Letters are not allowed.");
+    } else if (characterPosition < 1 || characterPosition > nameLength) {
+      	alert("Invalid number. Please pick a number from 1 to " + nameLength);
     } else {
         isValidInput2 = true;
         characterPosition = parseInt(characterPosition);
