@@ -12,6 +12,7 @@ function fizzBuzz () {
   } else {
     output.push(i); 
   }
+  
   console.log(output);
   i++;
   
