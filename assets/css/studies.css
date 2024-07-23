@@ -116,7 +116,7 @@ body, html {
 /* Custom CSS adjustments */
 
 .card {
-    height: 100%;
+    height: 90%;
   }
   
   .card-title {
@@ -143,7 +143,7 @@ body, html {
     font-size: 2rem;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    margin-left: 20px;
+    
     text-align: left;
   }
   
@@ -167,12 +167,15 @@ body, html {
   .cheader {
     font-size: 1.5rem;
   }
+
+  .corners {
+    border-radius: 15px; /* Adjust this value to control the roundness */
+    width: 300px;        /* Adjust this value to control the image size */
+    height: auto;        /* Maintain the aspect ratio */
+}
   
 
 .footer {
-    position: fixed; /* Positioned after the content */
-    bottom: 0px;
-    left: 0px;
     width: 100%;
     height: 30px; /* Adjust height as needed */
     background-color: #000000; /* Navbar background color */
