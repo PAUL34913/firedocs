@@ -1,5 +1,6 @@
 body, html {
     overflow-x: hidden;
+    background-color: darkgray;
 }
 
 .rollover-link {
@@ -105,7 +106,6 @@ body, html {
     height: auto;
     background-color: rgb(214, 214, 214);
     padding-top: 20px;
-    padding-bottom: 50px;
 }
 
 .weltextfull {
@@ -113,11 +113,17 @@ body, html {
     margin-bottom: 20px;
 }
 
+.index-list {
+  list-style-type: none;
+  padding: 0;
+}
+.index-list li {
+  margin-bottom: 10px;
+}
+
 /* Custom CSS adjustments */
 
-.card {
-    height: 90%;
-  }
+
   
   .card-title {
     padding-top: 10px;
@@ -136,7 +142,7 @@ body, html {
   }
   
   .cardbodysize {
-    height: auto;
+    margin-bottom: 0px;
   }
   
   .cardheadersize {
@@ -150,13 +156,12 @@ body, html {
   .cardtextsize {
     font-size: 12px;
     margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 50px;
+
     text-align: left;
   }
   
   .cbmargin {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   
   .cbaligncenter {
@@ -230,7 +235,7 @@ body, html {
     }
 
     .content {
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         padding-top: 0px;
     }
 
